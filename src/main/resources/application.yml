@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: stripe-integration
+
+server:
+  port: ${SERVER_PORT}
+  servlet:
+    context-path: /api/integration
+
+stripe:
+  api:
+    key: ${STRIPE_KEY}
